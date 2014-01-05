@@ -7,9 +7,6 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore the build directory
-/public
-
 # Ignore Sass' cache
 /.sass-cache
 
