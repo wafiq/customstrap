@@ -40,6 +40,7 @@ activate :livereload
 
 activate :directory_indexes
 
+set :build_dir, 'public'
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
