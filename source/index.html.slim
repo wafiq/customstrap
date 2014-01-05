@@ -1,0 +1,88 @@
+---
+title: Customstrap Home
+style: home
+---
+
+.header
+  .container
+    .brand
+      h1.logo.pull-left Customstrap
+      h4.pull-right Bootstrap Customization Specialist
+    .blurb
+      h1 Launch your Bootstrap-powered sites, fast.
+      h3 Tailored to your needs. Aligned to your identity.
+      a.btn.btn-default.btn-lg href="#contact" title="Contact Us" Send us your request
+
+.about
+  .container
+    .row.text-center
+      .col-sm-10.col-sm-offset-1
+        h2 In one paragraph, this is how we can help
+        p.lead We bring expertise in integrating and customizing Bootstrap into your sites. It doesn't matter if you have a rough layout on a napkin, or existing design direction, we will realize it into fully-functional web page.
+    .row.text-center
+      .col-sm-12
+        h3 Why Customstrap?
+        .row
+          .col-sm-4
+            p.text-center.blue
+              i.fa.fa-certificate.fa-4x
+            h4 Unique Branding
+            p Adapt to your corporate identity. Differentiate your site from stock Bootstrap styling.
+          .col-sm-4
+            p.text-center.blue
+              i.fa.fa-bolt.fa-4x
+            h4 Fast Turnaround
+            p Bootstrap allows us to iterate faster. Common web components doesn't require additional work.
+          .col-sm-4
+            p.text-center.blue
+              i.fa.fa-eye.fa-4x
+            h4 Consistent Styling
+            p We follows Bootstrap documented implementations religiously. A standardized interface guideline will be outlined.
+    .row
+      .col-sm-4
+        .bootstrap
+          i.fa.fa-2x.fa-tablet.blue
+          i.fa.fa-3x.fa-desktop.blue
+          i.fa.fa-lg.fa-mobile.blue
+      .col-sm-8
+        h3 What is Bootstrap?
+        p Bootstrap provides a base styling for almost every common web interfaces. They also includes few good JavaScript plugins, usually with almost no additional work required, except HTML markup.
+        p Bootstrap are designed to be responsive from the beginning. You can be assured that your website will look good in any devices.
+        p Once you integrate Bootstrap, extending your site, or building additional pages are a breeze. This allows you to save on development time, and focus your resources on something else more important, such as your content.
+        p
+          a.btn.btn-default href="#" Visit Bootstrap homepage
+.showcase.text-center
+  .container
+    h2 Showcase
+    .row
+      .col-sm-4
+        = link_to "http://alldeals.groupon.my", class: "thumbnail" do
+          = image_tag "alldeals.jpg"
+        p.text-muted Alldeals
+      .col-sm-4
+        = link_to "http://getaways.groupon.sg", class: "thumbnail" do
+          = image_tag "getaways.jpg"
+        p.text-muted Getaways
+      .col-sm-4
+        = link_to "http://getaways-guide.groupon.my", class: "thumbnail" do
+          = image_tag "g3.jpg"
+        p.text-muted Travel Guide
+.quotation
+  .container
+    h2.text-center Get a Quotation
+    .row
+      .col-sm-8
+        p Email us a brief about your job scope and details about the project like the following:
+        ul
+          li What is the stage of your project?
+          li How big is your project?
+          li What kind of site will it be?
+          li Components or technology required for the project?
+      .col-sm-4
+        #contact.well.text-center
+          h3 Ready to work?
+          p
+            a.btn.btn-primary.btn-lg href="mailto:hey@customstrap.co" title="Contact Us" mailto: hey@customstrap.co
+footer
+  .container
+    p.text-muted &copy; 2014 CustomStrap. By Wafiq Rodzuan.
